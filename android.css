@@ -626,4 +626,244 @@ font-size: 50px;
 .banner-btn:hover {
   background-color: #333333;
 }
+/* Main Layout Container */
+.android-xyz-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: 'Google Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: white;
+}
 
+/* Heading */
+.android-xyz-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1f1f1f;
+  margin-bottom: 16px;
+  letter-spacing: -0.5px;
+}
+
+/* Description Paragraph */
+.android-xyz-desc {
+  font-family: 'Google Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #000000 !important; /* Forces the Google grey text color */
+  background-color: transparent !important; /* Removes any unwanted grey selection box */
+  line-height: 1.6;
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 32px;
+  display: block;
+}
+
+/* Button Wrapper using Flexbox */
+.android-xyz-btn-wrap {
+  background-color: #ffffff;
+  border: 1px solid #dadce0;
+  border-radius: 9999px; /* Pill shape */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 1px 2px rgba(60, 64, 67, 0.1);
+  margin-bottom: 40px;
+}
+
+.android-xyz-btn-wrap:hover {
+  background-color: #f8f9fa;
+  box-shadow: 0 1px 3px rgba(60, 64, 67, 0.2);
+}
+
+/* Google Anchor Link using Flexbox */
+.android-xyz-anchor {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #3c4043;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 12px 28px;
+}
+
+.android-xyz-anchor i {
+  font-size: 1.2rem;
+  color: #4285F4;
+}
+
+/* Video Container & Element */
+.android-xyz-media-box {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.android-xyz-video {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 16px;
+  object-fit: cover;
+}
+/* Main Footer Layout */
+.z-footer-wrapper-99 {
+  background-color: #f8f9fa;
+  color: #3c4043;
+  font-family: 'Google Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  padding: 40px 5% 20px 5%;
+  font-size: 0.9rem;
+  border-top: 1px solid #dadce0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* Top Section (Socials + Links Grid) */
+.z-top-zone-xy {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.z-follow-cluster-ab {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 1px solid #dadce0;
+  padding-bottom: 25px;
+}
+
+.z-follow-lbl-99 {
+  font-weight: 500;
+  color: #1f1f1f;
+}
+
+.z-icon-row-zz {
+  display: flex;
+  gap: 20px;
+}
+
+.z-soc-link-xx {
+  color: #3c4043;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.z-soc-link-xx:hover {
+  color: #1a73e8;
+}
+
+/* Links Columns Grid Container */
+.z-grid-columns-q {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #dadce0;
+}
+
+.z-col-box-w {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.z-col-title-m {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #1f1f1f;
+  margin-bottom: 4px;
+}
+
+.z-link-list-k {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.z-item-link-v {
+  color: #5f6368;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.z-item-link-v:hover {
+  color: #1a73e8;
+  text-decoration: underline;
+}
+
+.z-item-link-v i {
+  font-size: 0.75rem;
+  margin-left: 2px;
+}
+
+/* Bottom Zone (Brand row & Disclaimers) */
+.z-bottom-zone-xy {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.z-brand-row-az {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.z-left-meta-group {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.z-logo-txt-99 {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #1f1f1f;
+}
+
+.z-policy-link-xx {
+  color: #3c4043;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.z-policy-link-xx:hover {
+  text-decoration: underline;
+}
+
+.z-right-lang-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  color: #3c4043;
+  font-weight: 500;
+}
+
+/* Disclaimers Text Block */
+.z-disclaimer-box-zz {
+  font-size: 0.75rem;
+  color: #80868b;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
